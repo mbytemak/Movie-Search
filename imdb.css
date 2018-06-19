@@ -1,9 +1,9 @@
 .details{
-
+  
   font-size:50px;
-
+ 
   text-align:center;
-
+  
 }
 body {
         background-color: lightgreen;
@@ -12,45 +12,46 @@ h1{
   text-align:center;
   font-family: 'Encode Sans Condensed', sans-serif;
   font-size:50px;
-
+  
 }
 
 
 img{
-
+  
   padding:1% 25% 1% 50%;
-
+  
 }
 
 #text{
    font-family: 'Encode Sans Condensed', sans-serif;
-
-
+  
+  
 }
 #search1{
-
+  
   padding:1% 25% 1% 35%;
-
-
+  
+  
 }
 .flex-container{
-
+  
   display:flex;
  justify-content:space-around;
   align-items:center;
   flex-direction:row;
+  height:200px;
 }
 @media screen and (max-width:518px) {
-
+   
   .flex-container{
-
+  
   display:flex;
  justify-content:space-around;
   align-items:center;
   flex-direction:column;
 }
-
-
+  
+  
 }
 select, option {
     width: 251px;
@@ -64,5 +65,5 @@ input{
 #search{
   height:24px;
    width: 250px;
-
+  
 }
